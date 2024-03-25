@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/ClearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/abril_fatface"
+            android:paddingLeft="10dp"
+            android:text=" CLEAR"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#4CAF50"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textViewClearPlate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="15dp"
+            android:paddingTop="7dp"
+            android:text="Plate number: MS99ADO"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewClearTimestamp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="15dp"
+            android:text="Timestamp: 12.2.2023 at Reghin"
+            android:textColor="#9A9A9A"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>
